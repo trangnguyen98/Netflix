@@ -41,13 +41,16 @@
 }
 
 .seeAll {
-  visibility: hidden;
+  display: none;
+  transition: display 4s ease;
+  /* animation-duration: 2s; */
 }
 
-.titleMovie:hover .seeAll {
-  visibility: visible;
+.titleMovie:hover + .seeAll {
+  display: flex;
 }
-
-/* :hover .hu{
-visibility: visible;
+/* 
+@keyframes text {
+  0%{opacity: 0;}
+  100%{opacity: .9;}
 } */

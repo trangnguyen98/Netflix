@@ -12,12 +12,20 @@ import "./listMovies.css";
 import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
-  
-})
+  // seeAll: {
+  //   visibility: "hidden",
+  // },
+  // titleMovie: {
+  //   "&: hover +.seeAll": {
+  //     visibility: "visible",
+  //   },
+  // },
+});
 
 function ListMovies({ categories }) {
-  const classes = useStyles()
-  console.log(categories);
+  const classes = useStyles();
+
+  // console.log(categories);
   const [listMovies, setListMovies] = useState([]);
 
   useEffect(() => {
@@ -32,7 +40,7 @@ function ListMovies({ categories }) {
       return movie;
     }
   });
-  console.log("movies22", catergoryMovies);
+  // console.log("movies22", catergoryMovies);
 
   const RenderItem = () => {
     return (
@@ -55,20 +63,28 @@ function ListMovies({ categories }) {
   console.log(listMovies);
   return (
     <Box className="list">
-      <Link to="/listitem" style={{textDecoration: "none"}} catergoryMovies={catergoryMovies}>
-        <Box
-          className="headerTitle"
-          style={{ display: "flex", cursor: "pointer" }}
+      <Box>
+        <Link
+          to="/listitem"
+          style={{ textDecoration: "none" }}
+          catergoryMovies={catergoryMovies}
         >
-          <Box className={classes.titleMovie}>
-            <Typography className="hu" variant="h4">{categories.title}</Typography>
+          <Box
+            className="headerTitle"
+            style={{ display: "flex", cursor: "pointer" }}
+          >
+            <Box className="titleMovie">
+              <Typography className="huhu" variant="h4">
+                {categories.title}
+              </Typography>
+            </Box>
+            <Box className="seeAll" pl={2}>
+              <Typography variant="subtitle1"> Xem tất cả</Typography>
+              <ChevronRightIcon />
+            </Box>
           </Box>
-          <Box className={classes.seeAll} pl={2}>
-            <Typography variant="subtitle1"> Xem tất cả</Typography>
-            <ChevronRightIcon />
-          </Box>
-        </Box>
-      </Link>
+        </Link>
+      </Box>
       <Box className="wrapper">
         <Box className="container">
           <RenderItem />
