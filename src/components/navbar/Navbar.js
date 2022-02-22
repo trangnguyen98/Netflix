@@ -1,4 +1,5 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import clsx from "clsx";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
@@ -20,15 +21,40 @@ const useStyles = makeStyles({
     justifyContent: "space-between",
     position: "fixed",
     zIndex: 2,
+    "&.nav__black": {
+      backgroundColor: "black",
+    },
   },
 });
 
 function Navbar() {
   const classes = useStyles();
 
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setShow(true);
+      } else {
+        setShow(false);
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
+
   return (
     <div>
-      <Box sx={{ width: "100%" }} className={classes.root}>
+      <Box
+        sx={{ width: "100%" }}
+        className={clsx(
+          classes.root,
+          classes.nav__black,
+          `root ${show && "nav__black"}`
+        )}
+      >
         <Tabs
           aria-label="Tabs where selection follows focus"
           selectionFollowsFocus

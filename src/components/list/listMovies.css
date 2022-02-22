@@ -2,7 +2,7 @@
   width: 100%;
   margin-top: 10px;
 }
-.list .listTitle {
+.list .headerTitle {
   color: white;
   font-size: 20px;
   font-weight: 500px;
@@ -39,3 +39,15 @@
 .list .wrapper .right {
   right: 0;
 }
+
+.seeAll {
+  visibility: hidden;
+}
+
+.titleMovie:hover .seeAll {
+  visibility: visible;
+}
+
+/* :hover .hu{
+visibility: visible;
+} */

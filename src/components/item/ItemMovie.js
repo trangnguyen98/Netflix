@@ -15,7 +15,7 @@ function ItemMovie({ movie }) {
           <iframe
             // ref={videoRef}
             width="100%"
-            height="120px"
+            height="100px"
             src={movie.video}
             title="YouTube video player"
             frameborder="0"

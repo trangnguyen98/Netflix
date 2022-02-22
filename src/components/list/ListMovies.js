@@ -6,9 +6,18 @@ import Box from "@mui/material/Box";
 import { Carousel } from "@trendyol-js/react-carousel";
 import ArrowForwardIosRoundedIcon from "@mui/icons-material/ArrowForwardIosRounded";
 import ArrowBackIosNewRoundedIcon from "@mui/icons-material/ArrowBackIosNewRounded";
+import ChevronRightIcon from "@mui/icons-material/ChevronRight";
+import { makeStyles } from "@mui/styles";
 import "./listMovies.css";
+import { Link } from "react-router-dom";
 
-function ListMovies({ title }) {
+const useStyles = makeStyles({
+  
+})
+
+function ListMovies({ categories }) {
+  const classes = useStyles()
+  console.log(categories);
   const [listMovies, setListMovies] = useState([]);
 
   useEffect(() => {
@@ -17,6 +26,13 @@ function ListMovies({ title }) {
       // console.log(response);
     });
   }, []);
+
+  const catergoryMovies = listMovies.filter((movie) => {
+    if (movie.catergory === categories.id) {
+      return movie;
+    }
+  });
+  console.log("movies22", catergoryMovies);
 
   const RenderItem = () => {
     return (
@@ -29,15 +45,8 @@ function ListMovies({ title }) {
         slide={3}
         swiping={true}
       >
-        {/* {listMovies.map((movie) => console.log(movie))} */}
-        {/* <ItemMovie />
-  <ItemMovie />
-  <ItemMovie />
-  <ItemMovie />
-  <ItemMovie />
-  <ItemMovie /> */}
-        {listMovies.map((movie) => (
-          <ItemMovie movie={movie} />
+        {catergoryMovies.map((movie) => (
+          <ItemMovie key={movie.id} movie={movie} />
         ))}
       </Carousel>
     );
@@ -46,12 +55,22 @@ function ListMovies({ title }) {
   console.log(listMovies);
   return (
     <Box className="list">
-      <Typography className="listTitle">{title}</Typography>
+      <Link to="/listitem" style={{textDecoration: "none"}} catergoryMovies={catergoryMovies}>
+        <Box
+          className="headerTitle"
+          style={{ display: "flex", cursor: "pointer" }}
+        >
+          <Box className={classes.titleMovie}>
+            <Typography className="hu" variant="h4">{categories.title}</Typography>
+          </Box>
+          <Box className={classes.seeAll} pl={2}>
+            <Typography variant="subtitle1"> Xem tất cả</Typography>
+            <ChevronRightIcon />
+          </Box>
+        </Box>
+      </Link>
       <Box className="wrapper">
         <Box className="container">
-          {/* {listMovies && (
-
-          )} */}
           <RenderItem />
         </Box>
       </Box>

@@ -1,5 +1,5 @@
 {
-  "movies" : [
+  "movies": [
     {
       "time": "2 hour",
       "limit": "13+",
@@ -7,7 +7,8 @@
       "genre": "Action",
       "id": 1,
       "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvDDZJS3Ll3qrJLRGus8NuRIaIQb3F7vdg1U--SZanrlqgBZp8LFJgXd-5_GRV__qHHDgITbfwZn8UqP4Qyg3G4mb3r1iI-RWopzmDIPmitTe2AVCWCtJ1xbALk.jpg?r=b5d",
-      "video": "https://www.youtube.com/watch?v=R514wlTL-OY"
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory_id": 1
     },
     {
       "time": "2 hour",
@@ -16,7 +17,8 @@
       "genre": "Action",
       "id": 2,
       "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcntvb5aXqXbnu4DIk6A9pSf9j_2VdJaUe695GMQyMVrkOsh6VAuZGTQb-_BF0mc37ZAMMhdd6ETqr3a1pxZxKvCh_zFcZUMhwiYq5n76WkgAqxUp1i5YXUZ5-r47Hd5c5k83MBIiN1GnpY3fDN1zkC34dh2h9-PUyUO0Hb4XDuzskFm1YyKyL4.jpg?r=ea0",
-      "video": "https://www.youtube.com/watch?v=Rk7J6PuMa2o"
+      "video": "https://www.youtube.com/watch?v=Rk7J6PuMa2o",
+      "catergory": 1
     },
     {
       "time": "2 hour",
@@ -25,7 +27,8 @@
       "genre": "Action",
       "id": 3,
       "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUGTV7FRjBqR7So3SEaKOS9eq4SLn8Y_tj-S_mFjPUCfwz8XLTH6yv8obY6AoyDwKsDe8dmyfGPunBqi08jJV-4SEAvloMcjGi4U0UPy4aI55zxex4pVC4C_P0TpvRAbEU6j5eVcBsJYIW9fekQHIiZw-sW0DUenIi4eypj8wtGmLG_gK8ITZG2TyAgV.webp?r=a44",
-      "video": "https://www.youtube.com/watch?v=ntNB1fzHho8"
+      "video": "https://www.youtube.com/watch?v=ntNB1fzHho8",
+      "catergory":1
     },
     {
       "time": "2 hour",
@@ -33,35 +36,39 @@
       "year": 2021,
       "genre": "Action",
       "id": 4,
-      "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvDDZJS3Ll3qrJLRGus8NuRIaIQb3F7vdg1U--SZanrlqgBZp8LFJgXd-5_GRV__qHHDgITbfwZn8UqP4Qyg3G4mb3r1iI-RWopzmDIPmitTe2AVCWCtJ1xbALk.jpg?r=b5d",
-      "video": "https://www.youtube.com/watch?v=R514wlTL-OY"
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQt85bAb5MaZwhlL9p8vftHP8mVXz--sD8cc0Sqwz9uNTjj1NjcGVQED6c19kGkfJFXpMAzFf2sV7tDuYs813dYiZNR-Icy_C1dUGeK3oDUUVGfb3wk7f3t5LQjqwPNP5DhqTF1jpGvbi9rQDLy9MpMM4tnLitFA3mHxRnf20U_akIwb1P3UcWA.jpg?r=580",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
     },
     {
       "time": "2 hour",
-      "limit": 2500000000,
+      "limit": "18+",
       "year": 2021,
       "genre": "Action",
       "id": 5,
-      "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvDDZJS3Ll3qrJLRGus8NuRIaIQb3F7vdg1U--SZanrlqgBZp8LFJgXd-5_GRV__qHHDgITbfwZn8UqP4Qyg3G4mb3r1iI-RWopzmDIPmitTe2AVCWCtJ1xbALk.jpg?r=b5d",
-      "video": "https://www.youtube.com/watch?v=R514wlTL-OY"
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSJbnxjo_MJIQf0p5Nig_nxaCxGPROY3LmFQPXEBD0kTkQ3q2zZpU3Gjmo7IGROjYDXhSBO4t0SS1EzZJMjNAFZ9TIk.webp?r=733",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
     },
     {
       "time": "2 hour",
-      "limit": 2500000000,
+      "limit": "18+",
       "year": 2021,
       "genre": "Action",
       "id": 6,
-      "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvDDZJS3Ll3qrJLRGus8NuRIaIQb3F7vdg1U--SZanrlqgBZp8LFJgXd-5_GRV__qHHDgITbfwZn8UqP4Qyg3G4mb3r1iI-RWopzmDIPmitTe2AVCWCtJ1xbALk.jpg?r=b5d",
-      "video": "https://www.youtube.com/watch?v=R514wlTL-OY"
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQgWxzoRDr_o-w7q9eHPGW_WnuoGzzITGg17JcuP62tChj3u05dyrhdsWUk_OhtTAOCypQPCLG6CXK9KrWtTDedFUrM.webp?r=833",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
     },
     {
       "time": "2 hour",
-      "limit": 2500000000,
+      "limit": "18+",
       "year": 2021,
       "genre": "Action",
       "id": 7,
-      "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvDDZJS3Ll3qrJLRGus8NuRIaIQb3F7vdg1U--SZanrlqgBZp8LFJgXd-5_GRV__qHHDgITbfwZn8UqP4Qyg3G4mb3r1iI-RWopzmDIPmitTe2AVCWCtJ1xbALk.jpg?r=b5d",
-      "video": "https://www.youtube.com/watch?v=R514wlTL-OY"
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSr6RKYlazt9kpKFandu-K9TaxpXcgrjK20gt7TY6SojFPkZ4Y78JjSPm876SCsMBzZmrnkkVy2DcKOKMwtS3Tr6ByeSQtGWmKScKMi0ofnBn3hmKRzpNWgBJtqZ.jpg?r=c1a",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
     },
     {
       "time": "1 hour 40 minues",
@@ -69,11 +76,224 @@
       "year": 2021,
       "genre": "Action",
       "id": 8,
-      "img": "https://occ-0-395-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZvDDZJS3Ll3qrJLRGus8NuRIaIQb3F7vdg1U--SZanrlqgBZp8LFJgXd-5_GRV__qHHDgITbfwZn8UqP4Qyg3G4mb3r1iI-RWopzmDIPmitTe2AVCWCtJ1xbALk.jpg?r=b5d",
-      "video": "https://www.youtube.com/watch?v=R514wlTL-OY"
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW9qC3P484FOeZiDeHNTljH9hLRqdXd4wVCeGhct1_NSV2eL_MfsfGY_UzOnoK2wRuPv1w-x91HjM9rcunoWLvwSgl8.webp?r=1a3",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    }, 
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 9,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcB1Ci6Jir-CM6Uc71R1Tu4ov_2r7Dh0GWkrN7k3no7F96KNuDzsWXnXHzi3EJLZQwoKMwTTaOUfosy2sHqfoQoCfiNSIv4ZtmdwcRIeAs99KRYL5Q38KYlvwOln.jpg?r=4c6",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    }, 
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 10,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW9qC3P484FOeZiDeHNTljH9hLRqdXd4wVCeGhct1_NSV2eL_MfsfGY_UzOnoK2wRuPv1w-x91HjM9rcunoWLvwSgl8.webp?r=1a3",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    }, 
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 11,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW9qC3P484FOeZiDeHNTljH9hLRqdXd4wVCeGhct1_NSV2eL_MfsfGY_UzOnoK2wRuPv1w-x91HjM9rcunoWLvwSgl8.webp?r=1a3",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 12,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaxfsXHu-dz1JjY3Nb6xCzB2PAmAKCIMC55DGctTDJhUnnI9_2jnXXGOzf2lZzDqfdFKEt51a0fDrtk0bxk9H6mZP1GW_5A9ZOEuA0yA0netY9ULMqLqspTQmhT3.jpg?r=b9f",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 13,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTKlXYmnffFoeRt9zHBzoTILQQzlpuEozkqz_LpMIJcE_VQzy8k7_yIgZxw-3K-9kRO0JxhzedufETIXwV3eAn3Yrn7XQZupyb1Z9xjAv75wzfGcI-8xuteCY4V5.jpg?r=cc8",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 14,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWcqJwl97bzAECGUAmR7RjovXkFEDrySZw27Ips3xp-6GwKi9rBSpAZTlfcoo_9FLoVRARfdOoLjSJwlcoNdQwNLtjo.webp?r=779",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 15,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSYagnboMulfko_cB002acyx28LNyeFc-RE4gYyOlXjxh9IlqxDjr_tXjyb0m1oaZzFYCbnwyI0BOWxDKYKXjKufc8M.webp?r=36f",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 16,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYZ6oc7wtrwCRtpjExIWiYhYiHk_NKvjlTtqRuItZCMQo4ubshXt27oRbVQcfrbGSx0mW2DpwJ_YJ0uOTYNtHkpKSC0.webp?r=da8",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 17,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfRiqVrBfgMJTyT2BGu5opBbyR0lOQ2n43pTfIOfY8ek7P4MjhbkieNa-w-LUSscE1zK8ArYxhUA0mmpLff8aG12u-U2U_ZDHIznwe15bOaWUIdg6SKOsrGkSVJ9.jpg?r=c41",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 18,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABe2zfT7ckiTml_sfimgyXmEZpESMK79HC9mIALh3GfpeqOtmgILt7wzsXdAOgd0xbVg-rNm2HWoJtNXY0a5yoa_IkcQ.webp?r=e44",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 3
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 19,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABS_731Guz7B1aZBb-mwEZCnTxJWcH30BhMuhpG3FrMTq4woBIQGncslmf-tbWpelKLPXey8pwzUP_NUznsvqHFO29Tq6Q9p9iba0CU8awxijuIuxgGrPvmANq-1X.jpg?r=da8",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 20,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYuO10trGhOTA-YK_eDXCujr0WwRKuil5cDks92rPIGc8a4uW17N1IRUiHIKUBkxvwwtANpc652dERBCA8zseed4LUoaX8gVvGpmBgzY2War8rah_14wnDXkqals.jpg?r=367",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 21,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVBnW1kLw7KNInOCQeHUmI-1gukoQItUSv8e4MsUEBnIMcKSivHPnugGVphfpSQINfYY2Cpawn9kM5IbcoMSsBwQh8A.webp?r=ff6",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 22,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZcBR5oFnupdpqLNiPgAsw-EWdAXLkh51BBbDu0LMayEEbBiMRoY1Z9tyeUk3Ts1hYHWlQ8bGzp3aARCfBaDTZX3RqeWHjFMCLoWmQiDIzLIiaRzLacG7oyHTDT1.jpg?r=7e7",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 1
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 23,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWxrBNXfok0uR7tPnXKn69MbeMXeiiv0boD1iX-4wkDRHqtDcFcaaGhEQ8SWKhDwuVKcG19e_o1E1iMb08ogqj5xkxfYiQPC9B57oCF4dQdYHXsoAmb7XMtyZca_.jpg?r=68a",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 2
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 24,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABULrKv7uNvztFE3DZyxskUOf1kb4wlbbKjvmwSVyqtgL3NcGMhpNJ1HXIiyOvjfkZlS6ouYL3Tkyhwuc6G_jA2JXKpg.webp?r=970",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 2
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 25,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZFt0-mJqvj-BFxc0yc0vMp0WamRWPWDG8VZF7d4uMbGJYX2wojCvF89LEAPtUIpD1eZTv8G_OlNskNj_YYgt3jOI1SEQpIgO-Zu4xb7d9zqUfHc3Zt6KzLJ9JNH.jpg?r=055",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 2
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 26,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABav0gKqhkEVkAO74IIMj4IAYEOxGVcc3LK7hRJwruk6Tsj6z5egFvsfnDObJFhc1EQa1CQy-ZyHLBEI1kyMr2mfux4k.webp?r=2b3",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 2
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 27,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUwpY2GcTnESX2AlbeAkaihsrg4RSM3Qt83ncNgcvv3gsJisUUTdFffvmVHrEGvL0efpI1ifJvr02Sn8sWuumeAQKmk.webp?r=e90",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 2
+    },
+    {
+      "time": "1 hour 40 minues",
+      "limit": 2500000000,
+      "year": 2021,
+      "genre": "Action",
+      "id": 28,
+      "img": "https://occ-0-58-395.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABebVkEViBXqy75z9bReSGo5BANgl0se5wlpVOCglGuuQ-8yrS9dosfWRk4bux7iH3txWcENDFyNWSH2IQxflCFZUAb-ccf9OcXqt0W9LQISDZ5MV2fmvnKgsLhYM.jpg?r=d4d",
+      "video": "https://www.youtube.com/watch?v=R514wlTL-OY",
+      "catergory": 2
     }
   ],
 
   "catergory": [
+    {
+      "title": "Trending now",
+      "id": 1
+    },
+    {
+      "title": "U.S. UK TV show",
+      "id": 2
+    },
+    {
+      "title": "Asian movies",
+      "id": 3
+    }
   ]
 }
